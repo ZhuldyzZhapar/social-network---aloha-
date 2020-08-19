@@ -1,0 +1,1226 @@
+html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	background-color: lemonchiffon;
+}
+
+header{
+	background-color: olivedrab;
+	position: relative;
+	width: 100%;
+}
+
+.navbar{
+	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+}
+
+.navbar li{
+	float: right;
+  	font-size: 15px;
+  	list-style-type: none;
+}
+
+.navbar a{
+	display: block;
+  	color: floralwhite;
+  	text-decoration: none;
+  	float: right !important;
+  	text-align: right;
+}
+
+#logo{
+	color: floralwhite; 
+	font-family:'Shadows Into Light'; 
+	font-size: 30px; 
+	float: left !important;
+	font-weight: bold;
+	padding-top: -20px;
+	letter-spacing: 1.5px;
+}
+
+.navigation{
+	float: left; 
+	position: absolute;
+	background-color: white;
+	width: 180px;
+	height: 100%;
+	padding: 20px 0 0 50px;
+	line-height: 60%;
+	font-size: 24px;
+	font-weight: 700;
+	font-family: Raleway;
+}
+
+.navigation a{
+  	text-decoration: none;
+  	color: olivedrab;
+}
+
+.index_caption{
+	font-family: Caveat; 
+	font-size: 36px; 
+	color: navy; 
+	font-weight: 500;
+}
+
+.index_caption_1{
+	padding-left: 500px;
+	font-family: Caveat; 
+	font-size: 25px; 
+	color: navy; 
+	font-weight: 700;
+}
+
+a{
+	text-decoration: none;
+}
+
+#search{
+	margin-right: 100px;
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}
+
+.button{
+	font-family: 'Trebuchet MS'; 
+	font-size: 18px; 
+	padding: 5px 15px 5px 15px;
+	color: floralwhite;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
+	float: left !important;
+	border-radius: 10px;
+	background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, #619702),
+        color-stop(0.62, #7ac000)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        #619702 23%,
+        #7ac000 62%
+    );
+}
+
+.button:hover{
+	color: #7ac000;
+	background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, white),
+        color-stop(0.62, ivory)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        white 23%,
+        ivory 62%
+    );
+}
+
+.chats{
+	text-align: center;
+	width: 500px;
+	justify-content: center;
+	align-items: center;
+	font-family: Calibri;
+}
+
+.chats_table{
+	width: 500px;
+	background-color: white;
+	border-collapse: separate;
+	justify-content: center; 
+	margin: 0 auto;
+}
+
+.chats_table tr{
+	margin-bottom: 30px;
+}
+
+.chats_table td{
+	text-align: left;
+	font-family: Calibri;
+	border: 2px solid olivedrab;
+	font-size: 18px;
+	padding: 5px 5px 5px 10px;
+	border-radius: 5px;
+	border-collapse: collapse;
+}
+
+.link{
+	color: black;
+	text-decoration: none;
+}
+
+.messanger_parent{
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	margin: 0 auto;
+	width: 600px;
+	font-family: "Century Gothic";
+	background-color: white;
+	border: 2px solid olivedrab;
+	margin-top: 10px;
+}
+
+.messenger{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	align-items: center;
+	justify-content: center; 
+	margin: 0 auto;
+	height: 500px;
+	max-height: 500px;
+	width: 600px;
+	max-width: 600px;
+	background-color: white;
+	border: 2px solid olivedrab;
+	line-height: 20%;
+}
+
+.messenger p{
+	padding: 0 5px 8px 5px;
+	font-size: 14px !important;
+	font-family: Calibri;
+}
+
+.send_message{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	width: 600px;
+}
+
+.my_message{
+	border: 1px solid powderblue;
+	background-color: powderblue;
+	border-radius: 10px;
+	margin: 8px 10px 8px 300px;
+	width: 270px;
+}
+
+.my_message p{	
+	padding: 5px 20px;
+	line-height: 18px;
+	color: black;
+}
+
+.buddy_message{
+	border: 1px solid khaki;
+	background-color: khaki;
+	border-radius: 10px;
+	margin: 8px 0 8px 10px;
+	width: 270px;
+}
+
+.buddy_message p{
+	padding: 5px 20px;
+	color: black;
+	line-height: 18px;
+}
+
+.send_message input{
+	border: 1px solid #ddd;
+}
+
+.profile_image{
+	float: left; 
+	position: relative; 
+	margin: 15px 20px 0 26%;	
+	z-index: 1;
+	overflow: hidden;
+	width: 230px;
+}
+
+.profile_image p{
+	position: absolute;
+    top: 180px;
+    margin: 22px 0 0 97px;
+    text-align: right;
+    font-size: 12px;
+    font-family: Raleway;
+    color: floralwhite;
+    cursor: pointer;
+    text-shadow: 1px 1px 0 navy, 1px 1px 0 navy;
+}
+
+#profile_image_hover{
+	position: absolute;
+	background-color: rgba(0,0,0,0.25);
+	width: 228px;
+	height: 50px;
+	padding-top: 180px;
+	display: none;
+	cursor: pointer;
+}
+
+#delete_profile_image{
+	margin-top: 0;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.profile_info{
+	width: 300px;
+	max-width: 300px;
+	float: left; 
+	font-family: 'Baloo 2';
+	position: relative;
+	margin-top: 5px; 
+	margin-left: 10px;
+	line-height: 100%;
+}
+
+.characteristics{
+	font-size: 16px;
+	position: absolute;
+	color: indigo;
+	text-shadow:  2px 2px 0 floralwhite, 2px 2px 0 floralwhite;
+}
+
+.info{
+	font-size: 17px;
+	transform: translate(150px, 15px);
+	color: olivedrab;
+	font-weight: 700;
+	width: 200px;
+	max-width: 200px;
+}
+
+#edit_profile{
+	color: floralwhite;
+	text-decoration: none; 
+	font-size: 18px; 
+	padding: 5px 18px 5px 18px;
+	font-family: Raleway;
+	font-weight: 700;
+	border: 2px solid olivedrab;
+	background-color: olivedrab;
+}
+
+#edit_info{
+	margin: 10px 0 0 450px;
+	display: inline-block;
+	width: 350px;
+	font-size: 14px !important;
+}
+
+#edit_info label{
+	position: absolute;
+	color: navy;
+	font-family: Georgia;
+	font-size: 15px;
+}
+
+#edit_info input{
+	width: 270px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+#edit_info textarea{
+	resize: none;
+}
+
+#birth{
+	width: 150px !important;
+	padding-top: 0 !important;
+	margin-top: -5px !important;
+	transform: translate(128px, -5px) !important;
+}
+
+#setted_birthday{
+	color: green;
+	position: absolute;
+	transform: translate(300px, -52px);
+}
+
+#div1 input{
+	transform: translate(128px, -14px);
+	font-family: Calibri;
+	font-size: 15px;
+}
+
+.delete_img1{
+	margin-left: 405px;
+	margin-top: -10px;
+	position: absolute;
+}
+
+.delete_img_gender{
+	transform: translate(405px, -10px);
+	position: absolute;
+}
+
+#div2 input{
+	transform: translate(128px, -14px);
+	font-family: Calibri;
+	font-size: 15px
+}
+
+.delete_img2{
+	margin-left: 407px;
+	margin-top: -10px;
+	position: absolute;
+}
+
+#div3 textarea{
+	transform: translate(128px, -3px);
+	font-family: Calibri;
+	font-size: 15px;
+}
+
+.delete_img3{
+	margin-left: 410px;
+	margin-top: -3px;
+	position: absolute;
+}
+
+.special{
+	font-weight: 700;
+	margin-left: 50%;
+	font-size: 20px;
+	margin-bottom: 30px;
+	color: navy;
+	text-shadow: 2px 2px 0 floralwhite, 2px 2px 0 floralwhite;
+}
+
+.message_input{
+	width: 500px;
+	padding: 13px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.form-inline{
+	display: flex;
+ 	flex-flow: row wrap;
+  	align-items: center;
+}
+
+.button_send{
+	width: 70px;
+	padding: 10px;
+	margin: -10px 0 0 0;
+	border-radius: 5px;
+}
+
+.button_send:hover{
+	background-color: gray;
+}
+
+.input{
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 7px;
+}
+
+.registration{
+	float: right; 
+	margin-right: 100px; 
+	font-family: 'Trebuchet MS'; 
+	color: olivedrab;
+	width: 300px;
+}
+
+#mess3{
+	font-size: 14px; 
+	color: navy; 
+	margin-top: -5px;
+	margin-bottom: -5px;
+}
+
+#mess2{
+	font-size: 14px; 
+	color: navy; 
+	margin-top: -5px;
+}
+
+#mess1{
+	font-size: 14px; 
+	color: navy; 
+	margin-top: -5px;
+}
+
+#reg{
+	font-weight: 900; 
+	font-size: 22px; 
+	text-align: center;
+}
+
+#window{
+	width: 600px;
+	height: 230px;
+	z-index: 150;
+	padding: -10px;
+	margin: 100px auto;
+	text-align: center;
+	background-color: white;
+	color: black;
+	border-radius: 15px;
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	font-family: 'Cambria';
+}
+
+#window_rename{
+	width: 600px;
+	height: 260px;
+	z-index: 150;
+	padding: -10px;
+	margin: 100px auto;
+	text-align: center;
+	background-color: white;
+	color: black;
+	border-radius: 15px;
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	font-family: 'Cambria';
+}
+
+#close{
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: white;
+	padding: 2px;
+	margin: 10px 0 0 550px;
+}
+
+#close:hover{
+	background-color: silver;
+}
+
+#gray{
+	background-color: rgba(1,1,1,0.6);
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 100;
+	display: none;
+}
+
+#window1{
+	width: 600px;
+	height: 170px;
+	z-index: 150;
+	padding: -10px;
+	margin: 100px auto;
+	text-align: center;
+	background-color: white;
+	color: midnightblue;
+	border-radius: 15px;
+	display: block;
+	position: fixed;
+	line-height: 25%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	font-family: 'Cambria';
+}
+
+#message{
+	margin-top: 20px !important;
+	line-height: 30px !important;
+}
+
+#gray1{
+	background-color: rgba(1,1,1,0.75);
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 100;
+	display: block;
+}
+
+#close1{
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 2px;
+	margin: 10px 0 0 550px;
+}
+
+#close1:hover{
+	background-color: silver;
+}
+
+.users_list{
+	width: 324px;
+	margin: 80px 0 0 40px;
+	float: left;
+	border: 1px solid white;
+	background-color: white;
+	border-radius: 30px;
+	display: block;
+}
+
+.users_list p{
+	font-family: Raleway;
+	font-weight: 700;
+	text-align: center;
+}
+
+.users_list h1{
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	color: olivedrab;
+}
+
+.users_list a{
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 13px;
+	text-decoration: none;
+	color: green;
+	text-align: center;
+}
+
+.friend{
+	width: 84px;
+	height: 140px;
+	margin: 10px 12px;
+	float: left;
+}
+
+.info1{
+	font-size: 17px;
+	transform: translate(150px, 15px);
+	color: darkmagenta;
+	width: 200px;
+	max-width: 200px;
+	font-weight: 900;
+}
+
+.friend_request{
+	display: block;
+	color: white;
+	font-size: 18px; 
+	padding: 5px 18px 5px 18px;
+	font-family: Raleway;
+	font-weight: 900;
+	border: 2px solid indigo;
+	background-color: indigo;
+	text-align: center;
+	cursor: pointer;
+}
+
+.friend_request a{
+	text-decoration: none;
+	color: floralwhite;
+	cursor: pointer;
+}
+
+.friend_request2{
+	color: indigo;
+	background-color: white;
+	border: 2px solid indigo;
+	cursor: pointer;
+	font-size: 18px; 
+	padding: 5px 18px 5px 18px;
+	font-family: Raleway;
+	font-weight: 900;
+	text-align: center;
+}
+
+.friend_request2 a{
+	text-decoration: none;
+	color: indigo;
+	cursor: pointer;
+}
+
+.none{
+	display: none;
+}
+
+#friends_buttons{
+	float: left;
+}
+
+.friends_button{
+	width: 100px;
+	color: white;
+	cursor: pointer;
+	padding: 7px 14px;
+	font-family: Raleway;
+	font-weight: 900;
+	background-color: indigo;
+	position: absolute;
+	transform: translate(260px);
+}
+
+.friends_button1{
+	width: 100px;
+	cursor: pointer;
+	background-color: white;
+	color: indigo;
+	padding: 5px 12px;
+	border: 2px solid indigo;
+	font-family: Raleway;
+	font-weight: 900;
+	position: absolute;
+	transform: translate(260px);
+}
+
+.find_friends_list{
+	width: 324px;
+	margin: 80px 0 0 40px;
+	float: left;
+	border: 1px solid white;
+	background-color: white;
+	border-radius: 30px;
+	display: none;
+}
+
+.find_friends_list a{
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 13px;
+	text-decoration: none;
+	color: green;
+	text-align: center;
+}
+
+.find_friends_list h2{
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 18px;
+	color: indigo;
+}
+
+.pos_friend{
+	width: 84px;
+	height: 140px;
+	margin: 10px 12px;
+	float: left;
+}
+
+.his_friends_div{
+	display: inline;
+	width: 330px;
+	margin: 30px 30px 0 40px;
+	float: right !important;
+	background-color: white;
+	border-radius: 10px;
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 12px;
+	color: indigo;
+}
+
+.his_friends_div a{
+	text-decoration: none;
+}
+
+.his_friends_div p{
+	margin-left: 60px;
+	font-size: 14px !important;
+	text-decoration: none;
+	position: absolute;
+}
+
+.his_friend{
+	width: 270px;
+	height: 40px;
+	padding: 10px;
+	float: left;
+	display: inline;
+}
+
+.albums{
+	margin-left: 300px;
+	width: 800px;
+	margin-top: -20px;
+}
+
+#albums_h2{
+	font-family: Raleway;
+	font-weight: 900;
+	font-size: 28px;
+	color: indigo;
+	margin-left: 300px;
+	text-shadow: 2px 2px 2px white, 2px 2px 2px white;
+}
+
+.album{
+	padding: 30px 30px 50px 30px;
+	width: 200px;
+	height: 200px;
+	float: left;
+	border: 1px solid white;
+	background-color: white;
+}
+
+.new_album{
+	float: right;
+	margin-right: 150px;
+	margin-top: -53px;
+	font-size: 22px;
+	padding: -10px 5px;
+	font-family: Raleway;
+	font-weight: 900;
+	color: indigo;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#album_rename{
+	margin-right: 490px;
+	float: right;
+	margin-top: -57px;
+	font-size: 22px;
+	padding: -10px 5px;
+	font-family: Raleway;
+	font-weight: 900;
+	color: indigo;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.create_album_button{
+	padding: 5px 15px;  
+	font-weight: bold;
+	font-family: Raleway; 
+	font-size: 18px; 
+	color: white; 
+	background-color: indigo;
+	color: floralwhite;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
+	border-radius: 10px;
+	background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, indigo),
+        color-stop(0.62, darkorchid)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        indigo 23%,
+        darkorchid 62%
+    );
+}
+
+.create_album_button:hover{
+	color: indigo; 
+	background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(1, white)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        white 100%
+    );
+}
+
+.album a{
+	text-decoration: none;
+}
+
+.album p{
+	font-weight: 900;
+	font-family: Raleway;
+	font-size: 17px;
+	color: indigo;
+}
+
+.album_cover_div{
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	max-height: 200px;
+	max-width: 200px;
+	border-radius: 5px;
+}
+
+.images{
+	margin-left: 300px;
+	width: 1000px;
+	margin-top: -20px;
+}
+
+.images p{
+	color: indigo;
+	font-size: 18px;
+	font-family: Raleway;
+	font-weight: 900;
+	padding-left: 10px;
+}
+
+.image{
+	padding: 20px 15px 20px 15px;
+	width: 150px;
+	height: 150px;
+	float: left;
+	position: relative;
+	border: 1px solid white;
+	background-color: white;
+}
+
+.image_div{
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+	max-height: 150px;
+	max-width: 150px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+ 
+#back{
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+
+.popup {
+	position: absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:none;
+	text-align:center;
+	overflow: hidden;
+	position: fixed;
+}
+
+.popup_bg {
+	background:rgba(0,0,0,0.4);
+	position:absolute;
+	z-index:100;
+	min-height:100%;
+	width:100%;
+	overflow: hidden;
+}
+
+.popup_img {
+	position: relative;
+	margin:0 auto;
+	z-index:101;
+	max-height:84%;
+	max-width:80%;
+	margin:3% 0 0 0;
+}
+
+.upload_images{
+	float: right;
+	margin-right: 150px;
+	margin-top: -57px;
+	font-size: 22px;
+	padding: -10px 5px;
+	font-family: Raleway;
+	font-weight: 900;
+	color: indigo;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.delete_album{
+	float: right;
+	margin-right: 320px;
+	margin-top: -57px;
+	font-size: 22px;
+	padding: -10px 5px;
+	font-family: Raleway;
+	font-weight: 900;
+	color: indigo;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.delete_album a{
+	color: indigo;
+}
+
+.img_button_div{
+	font-size: 23px;
+	position: absolute;
+	color: white;
+	width: 100%;
+	z-index: 101;
+	font-weight: bold;
+	font-family: Raleway;
+	margin-top: 350px;
+}
+
+.img_button_div a{
+	color: white;
+}
+
+.likes{
+	float: right;
+	cursor: pointer;
+	margin: 0 40px 10px 0;
+}
+
+.img_delete{
+	padding: 0;
+	margin: 0 40px 10px 0;
+	float: right;
+	cursor: pointer;
+}
+
+/*css for email_us.php*/
+.cover {
+    margin-left: 270px;
+}
+
+h2.contact { 
+	padding-top: 10px; 
+    font-size: 25px; 
+    color: navy; 
+    font-family: Raleway;
+}
+ 
+p.contact { 
+    font-size: 20px; 
+    margin-bottom: 15px; 
+    line-height: 36px; 
+    font-family: sans-serif, Arial; 
+    color: #4b4b4b; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); 
+}
+
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+	color: green;
+}
+
+#contactform input[type="text"] {
+    width: 400px; 
+}
+ 
+#contactform textarea { 
+    width: 500px; 
+    height: 175px; 
+}
+ 
+#contactform label { 
+    color: #ff5400; 
+}
+ 
+#contactform input,
+#contactform textarea { 
+    background-color: rgba(255, 255, 255, 0.4); 
+    border: 3px solid rgba(122, 192, 0, 0.15); 
+    padding: 10px; 
+    font-family: Keffeesatz, Arial; 
+    color: #4b4b4b; 
+    font-size: 18px; 
+    -webkit-border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+ 
+#contactform input:focus, 
+#contactform textarea:focus { 
+    border: 3px solid hsl(120, 20%, 50%);
+    background-color: rgba(255, 255, 255, 1);
+}
+ 
+#contactform input[type="submit"] {
+    border: none;
+    font-family: Raleway;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    background-color: #7ac000;
+    padding: 5px 36px 8px 36px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, #619702),
+        color-stop(0.62, #7ac000)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        #619702 23%,
+        #7ac000 62%
+    );
+}
+ 
+#contactform input[type="submit"]:hover {
+    color: #fff; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
+    background-color: #ff5400;
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, #c34000),
+        color-stop(0.62, #ff5400)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        #c34000 23%,
+        #ff5400 62%
+    );
+}
+ 
+#contactform input[type="submit"]:active { 
+    top: 1px; 
+}
+
+/*end of css for email_us.php*/
+
+#window_search{
+  width: 400px;
+  height: 460px;
+  z-index: 150;
+  padding: 30px;
+  margin: 40px auto;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-family: 'Cambria';
+}
+
+#gray_search{
+  background-color: rgba(1,1,1,0.6);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  display: none;
+}
+
+.search_text{
+  height: 25px;
+  width: 230px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: 'Trebuchet MS';
+  resize: none;
+}
+
+.each-user{
+	width: 100%;
+	float: left;
+	font-size: 15px;
+	padding: 5px auto;
+  	margin: 5px;
+  	font-family: Calibri;
+}
+
+.each-user:hover {
+	background: #F5F5F5;
+}
+
+.user-avatar{
+  padding: 10px;
+}
+
+.user-information {
+  	float: left;
+	text-align: center;
+	margin: -5px 60px;
+}
+
+.image_div_pro{
+  overflow: hidden;
+  width: 80px;
+  max-width: 80px;
+  height: 80px;
+  max-height: 80px;
+  cursor: pointer;
+  float: left;
+  border-radius: 50%;
+}
+
+.button_1{
+  font-family: 'Trebuchet MS'; 
+  font-size: 18px; 
+  padding: 5px 15px 5px 15px;
+  color: floralwhite;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
+  float: left !important;
+  border-radius: 10px;
+  background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, indigo),
+        color-stop(0.62, darkorchid)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        indigo 23%,
+        darkorchid 62%
+    );
+}
+
+.button_1:hover{
+  color: indigo;
+  background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, white),
+        color-stop(0.62, ivory)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        white 23%,
+        ivory 62%
+    );
+}

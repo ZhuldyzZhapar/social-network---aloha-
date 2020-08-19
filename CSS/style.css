@@ -1,0 +1,383 @@
+body{
+	margin: 0;
+  	padding: 0;
+  	min-height: 100%;
+	font-size: 19px;
+	background-color: lemonchiffon;
+}
+
+html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#search{
+  margin-right: 600px;
+}
+
+.text{
+	height: 25px;
+	width: 200px;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+  	font-family: 'Trebuchet MS';
+	resize: none;
+}
+
+#text{
+	font-family: Calibri;
+	font-size: 15px;
+	width: 250px;
+	padding-left: 50px;
+}
+
+#back{
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+
+header{
+	background-color: olivedrab;
+	position: relative;
+	width: 100%;
+}
+
+.navbar{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.navbar li{
+	float: right;
+	font-size: 15px;
+	margin-right: 0;
+	list-style-type: none;
+}
+
+.navbar a{
+	display: block;
+	color: floralwhite;
+	text-decoration: none;
+	float: right !important;
+	text-align: right;
+}
+
+#logo{
+	color: floralwhite; 
+	font-family:'Shadows Into Light'; 
+	font-size: 30px; 
+	float: left !important;
+	font-weight: bold;
+	padding-top: -20px;
+	letter-spacing: 1.5px;
+}
+
+.navigation{
+	float: left; 
+	position: absolute;
+	background-color: white;
+	width: 180px;
+	height: 100%;
+	padding: 20px 0 0 50px;
+	line-height: 60%;
+	font-size: 24px;
+	font-weight: 700;
+	font-family: Raleway;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: olivedrab;
+}
+
+#my_posts{
+	font-family: Raleway;
+	font-size: 27px;
+	font-weight: 900;
+	color: indigo;
+}
+
+.image_div_1{
+	overflow: hidden;
+	width: 300px;
+	max-width: 300px;
+	height: 150px;
+	max-height: 150px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+table{
+	width: 700px;
+	margin: 60px 0 0 350px;
+	border-collapse: collapse;
+	border-radius: 5px;
+}
+
+tr{
+	border: 1px solid olivedrab;
+	border-radius: 5px;
+	background-color: white;
+}
+
+i{
+  color: navy;
+  font-weight: 900;
+  text-decoration: underline;
+  margin-top: -20px;
+}
+
+#form{
+	width: 45%;
+	margin: 50px auto;
+	text-align: left;
+	padding: 20px;
+	border: 1px solid #bbbbbb;
+	border-radius: 5px;
+}
+
+.button{
+  font-family: 'Trebuchet MS'; 
+  font-size: 18px; 
+  padding: 5px 15px 5px 15px;
+  color: floralwhite;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
+  float: left !important;
+  border-radius: 10px;
+  background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, indigo),
+        color-stop(0.62, darkorchid)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        indigo 23%,
+        darkorchid 62%
+    );
+}
+
+.button:hover{
+  color: indigo;
+  background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, white),
+        color-stop(0.62, ivory)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        white 23%,
+        ivory 62%
+    );
+}
+
+.input-group{
+	font-family: Calibri;
+}
+
+.input-group label, #label{
+	display: block;
+	text-align: left;
+	margin: 3px;
+	font-family: Calibri;
+	font-weight: 900;
+	color: indigo;
+}
+
+.input-group input{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.msg{
+	margin: 30px auto;
+	padding: 10px;
+	border-radius: 5px;
+	color: #3c763d;
+	background: #dff0d8;
+	border: 1px solid #3c763d;
+	width: 50%;
+	text-align: center;
+}
+
+.blabla{
+	width: 400px;
+	height: 400px;
+}
+
+.del_btn{
+	padding: 5px 15px;  
+	font-weight: bold;
+	font-family: 'Trebuchet MS'; 
+	font-size: 17px; 
+	color: white; 
+	background-color: indigo;
+	color: floralwhite;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
+	border-radius: 10px;
+	background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, #619702),
+        color-stop(0.62, #7ac000)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        #619702 23%,
+        #7ac000 62%
+    );
+}
+
+.del_btn:hover{
+	color: olivedrab; 
+	background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(1, white)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        white 100%
+    );
+}
+
+#del_btn{
+	position: absolute;
+	float: right;
+}
+
+#window_search{
+  width: 400px;
+  height: 460px;
+  z-index: 150;
+  padding: 30px;
+  margin: 40px auto;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-family: 'Cambria';
+}
+
+#gray_search{
+  background-color: rgba(1,1,1,0.6);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  display: none;
+}
+
+.search_text{
+  height: 25px;
+  width: 230px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: 'Trebuchet MS';
+  resize: none;
+}
+
+.each-user{
+	width: 100%;
+	float: left;
+	font-size: 15px;
+	padding: 5px auto;
+  margin: 5px;
+  font-family: Calibri;
+}
+
+.each-user:hover {
+	background: #F5F5F5;
+}
+
+.user-avatar{
+  padding: 10px;
+}
+
+.user-information {
+  float: left;
+	text-align: center;
+	margin: -5px 60px;
+}
+
+.image_div_pro{
+  overflow: hidden;
+  width: 80px;
+  max-width: 80px;
+  height: 80px;
+  max-height: 80px;
+  cursor: pointer;
+  float: left;
+  border-radius: 50%;
+}
+
+.button_1{
+  font-family: 'Trebuchet MS'; 
+  font-size: 18px; 
+  padding: 5px 15px 5px 15px;
+  color: floralwhite;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
+  float: left !important;
+  border-radius: 10px;
+  background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, indigo),
+        color-stop(0.62, darkorchid)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        indigo 23%,
+        darkorchid 62%
+    );
+}
+
+.button_1:hover{
+  color: indigo;
+  background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, white),
+        color-stop(0.62, ivory)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        white 23%,
+        ivory 62%
+    );
+}
+
+#search{
+	margin-right: 100px;
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}

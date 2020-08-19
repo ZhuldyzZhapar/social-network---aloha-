@@ -1,0 +1,452 @@
+html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: lemonchiffon;
+}
+
+header{
+  background-color: olivedrab;
+  position: relative;
+  width: 100%;
+}
+
+.navbar{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li{
+  float: right;
+  font-size: 15px;
+  margin-right: 0;
+  list-style-type: none;
+}
+
+.navbar a{
+  display: block;
+  color: floralwhite;
+  text-decoration: none;
+  float: right !important;
+  text-align: right;
+}
+
+#logo{
+  color: floralwhite; 
+  font-family:'Shadows Into Light'; 
+  font-size: 30px; 
+  float: left !important;
+  font-weight: bold;
+  padding-top: -20px;
+  letter-spacing: 1.5px;
+}
+
+.navigation{
+  float: left; 
+  position: absolute;
+  background-color: white;
+  width: 180px;
+  height: 100%;
+  padding: 20px 0 0 50px;
+  line-height: 60%;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Raleway;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: olivedrab;
+}
+
+.head 	{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100% auto;
+	height: 100px;
+}
+
+.head li{
+	float: left;
+	margin-left: 100px;
+	font-size: 20px;
+	display: block;
+	color: white;
+}
+
+#id{
+	height: 100px;
+	width: 100%;
+}
+
+.main{
+	width: 100%;
+	margin: -30px -50px;
+}
+
+.posts{
+	width: 72% ;
+	height: 100%;
+	padding: 0px;
+	float: right;
+}
+
+#search{
+  margin-right: 100px;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.search-users{
+  border: 1px black solid;
+  width: 25%;
+  height: 100%;
+  padding: 10px;
+}
+
+.text{
+	height: 25px;
+	width: 200px;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+  font-family: 'Trebuchet MS';
+	resize: none;
+}
+
+.search_text{
+  height: 25px;
+  width: 230px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: 'Trebuchet MS';
+  resize: none;
+}
+
+.image_div{
+  overflow: hidden;
+  width: 480px;
+  max-width: 480px;
+  height: 272px;
+  max-height: 272px;
+  cursor: pointer;
+}
+
+.image_div_pro{
+  overflow: hidden;
+  width: 80px;
+  max-width: 80px;
+  height: 80px;
+  max-height: 80px;
+  cursor: pointer;
+  float: left;
+  border-radius: 50%;
+}
+
+.button{
+  font-family: 'Trebuchet MS'; 
+  font-size: 18px; 
+  padding: 5px 15px 5px 15px;
+  color: floralwhite;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
+  float: left !important;
+  border-radius: 10px;
+  background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, indigo),
+        color-stop(0.62, darkorchid)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        indigo 23%,
+        darkorchid 62%
+    );
+}
+
+.button:hover{
+  color: indigo;
+  background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, white),
+        color-stop(0.62, ivory)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        white 23%,
+        ivory 62%
+    );
+}
+
+#blabla{
+	float: right;
+	margin-right: 50px;
+}
+
+#time{
+	font-family: Calibri;
+	font-size: 15px;
+	color: silver;
+}
+
+.each-user{
+	width: 100%;
+	float: left;
+	font-size: 15px;
+	padding: 5px auto;
+  margin: 5px;
+  font-family: Calibri;
+}
+
+a{
+  text-decoration: none;
+}
+
+.user-avatar{
+  padding: 10px;
+}
+
+.user-information {
+  float: left;
+	text-align: center;
+	margin: -5px 60px;
+}
+
+table{
+  margin-top: 30px;
+}
+
+tr{
+  margin-bottom: 30px;
+}
+
+th, td{
+	border: none;
+	height: 30px;
+	padding: ;
+}
+
+.each-user:hover {
+	background: #F5F5F5;
+}
+
+.body{
+  height: 230px;
+  width: 300px;
+  float: left;
+  padding: 20px;
+  border: 1px solid midnightblue;
+  margin: 10px 0 10px 0;
+  background-color: white;
+  border-radius-left: 50%;
+}
+
+.body h4{
+  font-family: Calibri;
+  font-size: 20px;
+  color: darkorchid;
+  text-shadow: 0.01px 0.01px 0 gray, 0.01px 0.01px 0 gray;
+  font-weight: 900;
+}
+
+.body a{
+  text-decoration: none;
+  color: darkorchid;
+}
+
+.posts-wrapper{
+  width: 50%;
+  margin: 20px auto; 
+  border: 1px solid #eee;
+}
+
+.post{
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px 5px 0px 5px;
+  border: 1px solid green;
+}
+
+.post-info{
+  margin: 10px auto 0px;
+  padding: 5px;
+}
+
+.fa{
+  font-size: 1.2em;
+}
+
+.fa-thumbs-down, .fa-thumbs-o-down{
+  transform:rotateY(180deg);
+}
+
+.logged_in_user{
+  padding: 10px 30px 0px;
+}
+
+i{
+  color: navy;
+  font-weight: 900;
+  text-decoration: underline;
+  margin-top: -20px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+
+.snip0016{
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  height: 272px;
+  max-height: 272px;
+  margin: 10px 0 10px 0;
+}
+
+.snip0016 *{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.snip0016 figcaption{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 0 20px 0;
+  margin-left: 17%;
+}
+
+.snip0016 figcaption::before{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 30px;
+  left: 30px;
+  border-left: 4px solid rgba(255, 255, 255, 0.8);
+  content: '';
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.snip0016 h1,
+.snip0016 p{
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s,-webkit-transform 0.35s,-moz-transform 0.35s,-o-transform 0.35s,transform 0.35s;
+  padding-left: 40px;
+}
+
+.snip0016 h1{
+  font-size: 20px;
+  word-spacing: 0.01em;
+  font-weight: 400;
+  font-family: 'Trebuchet MS';
+  -webkit-transform: translate3d(30%, 0%, 0);
+  transform: translate3d(30%, 0%, 0);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  font-size: 15px;
+}
+
+.snip0016 h1 span{
+  font-weight: 500;
+}
+
+.snip0016 p{
+  font-weight: 200;
+  -webkit-transform: translate3d(0%, 30%, 0);
+  transform: translate3d(0%, 30%, 0);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  font-size: 12px;
+  font-family: 'Trebuchet MS';
+}
+
+.snip0016 a{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  color: #ffffff;
+}
+
+.snip0016:hover img{
+  opacity: 0.8;
+}
+
+.snip0016:hover figcaption h1{
+  opacity: 1;
+  -webkit-transform: translate3d(0%, 0%, 0);
+  transform: translate3d(0%, 0%, 0);
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+  font-size: 15px;
+}
+
+.snip0016:hover figcaption p{
+  opacity: 0.9;
+  -webkit-transform: translate3d(0%, 0%, 0);
+  transform: translate3d(0%, 0%, 0);
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+  font-size: 12px;
+}
+
+.snip0016:hover figcaption::before{
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  left: 30px;
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+#window_search{
+  width: 400px;
+  height: 460px;
+  z-index: 150;
+  padding: 30px;
+  margin: 40px auto;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-family: 'Cambria';
+}
+
+#gray_search{
+  background-color: rgba(1,1,1,0.6);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  display: none;
+}
